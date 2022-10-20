@@ -5044,6 +5044,9 @@ select {
     position: relative;
     margin: 0 auto;
   }
+  .display-none {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .banner.banner-one {
@@ -5153,6 +5156,15 @@ select {
   }
   .banner.banner-six .banne-content-wrapper-six {
     margin-bottom: 30px;
+  }
+  .image-circle {
+    left: 262px !important;
+    z-index: -1;
+    top: -45px;
+    height: 240px;
+  }
+  .display-none-768 {
+    display: none;
   }
 }
 @media (max-width: 640px) {
@@ -5328,9 +5340,10 @@ select {
     width: 200px;
   }
   .image-circle {
-    left: 162px !important;
+    left: 185px !important;
     z-index: -1;
-    top: -65px;
+    top: -39px;
+    height: 200px;
   }
 }
 @media (max-width: 380px) {
@@ -5476,11 +5489,6 @@ select {
 @media (max-width: 768px) {
   .section-title.style-five .title {
     font-size: 30px;
-  }
-  .image-circle {
-    left: 228px !important;
-    z-index: -1;
-    top: -88px;
   }
 }
 .section-title.style-six .title {
