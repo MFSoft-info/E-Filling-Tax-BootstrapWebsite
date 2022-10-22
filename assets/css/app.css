@@ -2319,7 +2319,7 @@ select {
   transition: all 0.5s ease-in-out;
 }
 .site-header .header-inner .site-nav .nav-right {
-  margin-left: 50px;
+  margin-left: 5px;
 }
 .site-header .header-inner .site-nav .nav-right .nav-btn {
   background: #fff;
@@ -2419,7 +2419,7 @@ select {
   display: flex;
 }
 .site-header .site-main-menu li {
-  margin: 0 23px;
+  margin: 0 5px;
   position: relative;
   padding: 36px 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2434,6 +2434,7 @@ select {
   font-size: 15px;
   font-weight: 500;
   position: relative;
+  padding: 6px 11px;
 }
 .site-header .site-main-menu li > a:hover {
   color: #2e7d32;
@@ -3070,7 +3071,10 @@ select {
     padding: 15px 0;
   }
   .site-header .header-inner .site-nav .nav-right {
-    margin-left: 20px;
+    margin: 15px;
+  }
+  .open-nav {
+    flex-direction: column;
   }
   .site-header .header-inner .site-nav .nav-right .nav-btn {
     padding: 8px 22px;
@@ -4638,14 +4642,14 @@ select {
   border-radius: 29px;
   color: #2e7d32;
   box-shadow: 4px 4px #aba5a5;
+  cursor: pointer;
+}
+.card-hover:hover h4 {
+  color: #ffa000 !important;
 }
 
 .btn-primary {
   background-color: #4caf50 !important;
-}
-
-.card-hover:hover h4 {
-  color: #ffa000;
 }
 
 .background-wave {
@@ -6968,6 +6972,29 @@ select {
 .job-image-content-wrapper-one {
   margin-bottom: 160px;
 }
+
+.background-color {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+
+  background: rgba(238, 189, 35, 0.8);
+  opacity: 0.3;
+  filter: blur(60px);
+  transform: rotate(90deg);
+}
+
+.background-green {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  background: rgba(76, 175, 80, 0.8);
+  right: 1px;
+  opacity: 0.3;
+  filter: blur(60px);
+  transform: rotate(90deg);
+}
+
 @media (max-width: 991px) {
   .job-image-content-wrapper-one {
     margin-bottom: 100px;
@@ -8268,10 +8295,6 @@ select {
   padding: 0 20px 100px;
 }
 
-.testimonials-two {
-  background: #f8f7fc;
-}
-
 .testimonial-two .testi-content-inner {
   overflow: hidden;
   position: relative;
@@ -8290,7 +8313,6 @@ select {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 .testimonial-two .testimonial-bio .avatar {
   height: 70px;
@@ -8307,9 +8329,7 @@ select {
   margin-top: 0;
   margin-bottom: 5px;
 }
-.testimonial-two .testimonial-content {
-  margin-bottom: 35px;
-}
+
 .testimonial-two .testimonial-content p {
   font-size: 15px;
   line-height: 25px;
