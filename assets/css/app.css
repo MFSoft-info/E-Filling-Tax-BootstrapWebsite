@@ -924,6 +924,7 @@ section {
 
 .footer-bg {
   background-image: url("/assets/img/body/Deco-2.png");
+
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: center;
@@ -945,11 +946,10 @@ section {
   list-style: none;
 }
 .list-items li {
-  font-size: 16px;
-  line-height: 36px;
+  font-size: 15px;
+  line-height: 22px;
   font-weight: 500;
   color: #2b2350;
-  padding-left: 36px;
   position: relative;
 }
 /* .list-items li:before {
@@ -2330,7 +2330,7 @@ select {
   padding: 7px 37px;
   font-weight: 600;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 15px;
   border: 2px solid transparent;
 }
 .site-header .header-inner .site-nav .nav-right .nav-btn:hover {
@@ -2343,14 +2343,15 @@ select {
   -webkit-box-shadow: none;
   box-shadow: none;
   font-weight: 700;
-  padding: 6px 37px;
+  padding: 6px 30px;
 }
 .site-header .header-inner .site-nav.nav-two .nav-right .nav-btn:hover {
   background: #ffa000;
   color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
-  padding: 6px 37px;
+  padding: 6px 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 @media (max-width: 991px) {
   .site-header .header-inner .site-nav.nav-two .nav-right .nav-btn {
@@ -2361,6 +2362,7 @@ select {
     color: #fff;
     background-color: #ffa000;
     border-color: #ffa000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
   .bg-yellow {
     background-color: #ffecb3;
@@ -2370,7 +2372,7 @@ select {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.3);
   color: #fff;
-  padding: 9px 37px;
+  padding: 9px 30px;
 }
 .site-header
   .header-inner
@@ -2959,7 +2961,7 @@ select {
   .nav-right
   .nav-btn.style-two:hover {
   background: #ffa000;
-  color: #ffa000;
+  color: #fff;
   border-color: #ffa000;
 }
 .pix-header-fixed .header-inner .site-nav.nav-two .site-main-menu li a:hover,
@@ -2969,7 +2971,7 @@ select {
   .site-main-menu
   li
   a.current_page {
-  color: #7052fb;
+  color: #4CAF50;
 }
 .pix-header-fixed .site-main-menu li {
   padding: 28px 0;
@@ -4716,9 +4718,9 @@ select {
     height: 890px;
   }
   .banner.banner-two .banner-content-wrap {
-    -webkit-transform: translateY(50%);
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
+    -webkit-transform: translateY(33%);
+    -ms-transform: translateY(33%);
+    transform: translateY(33%);
   }
   .banner.banner-two .banner-content .banner-title {
     font-size: 40px;
@@ -4808,7 +4810,7 @@ select {
     width: 600px;
   }
   .footer-font-size {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -5483,7 +5485,7 @@ select {
   letter-spacing: 3px;
 }
 .section-title .title {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.4;
 }
@@ -5958,7 +5960,7 @@ select {
   color: #7052fb;
 }
 .saaspik-icon-box-wrapper.style-six .pixsass-icon-box-content p {
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 .saaspik-icon-box-wrapper.style-six .pixsass-icon-box-content .more-btn {
   color: #2b2350;
@@ -6021,6 +6023,7 @@ select {
 .saaspik-icon-box-wrapper.style-seven .saaspik-icon-box-content p {
   color: #5e5b74;
   margin-bottom: 17px;
+  margin-top: 5px;
 }
 .saaspik-icon-box-wrapper.style-seven .saaspik-icon-box-content .read-more {
   color: #5e5b74;
@@ -6238,7 +6241,7 @@ select {
 }
 
 .featured-six {
-  padding: 60px 0 60px;
+  padding: 30px 0 30px;
 }
 
 .featured-five {
@@ -6713,7 +6716,7 @@ select {
 
 .animaated-elements-two {
   position: relative;
-  height: 560px;
+  /* height: 560px; */
   width: 570px;
   margin-top: 87px;
   z-index: 22;
@@ -7590,7 +7593,7 @@ select {
   padding: 116px 0 30px;
 }
 .revolutionize-two {
-  padding: 116px 0 200px;
+  padding: 40px 0 200px;
 }
 .revolutionize-two .bg-angle {
   background-image: -o-linear-gradient(150deg, #7052fb 0%, #8a60fd 100%);
@@ -8288,11 +8291,11 @@ select {
 
 .testimonials-two,
 .testimonials-two-about {
-  padding: 116px 0 60px;
+  padding: 50px 0 60px;
 }
 .testimonials-two .swiper-container,
 .testimonials-two-about .swiper-container {
-  padding: 0 20px 100px;
+  padding: 0 20px 80px;
 }
 
 .testimonial-two .testi-content-inner {
@@ -8304,7 +8307,7 @@ select {
   border: 1px solid #e2e2e2;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.22);
   border-radius: 8px;
-  padding: 25px;
+  padding: 20px;
 }
 .testimonial-two .testimonial-bio {
   display: -webkit-box;
@@ -8331,8 +8334,8 @@ select {
 }
 
 .testimonial-two .testimonial-content p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 21px;
   margin: 0;
 }
 .testimonial-two .shape-shadow {
@@ -11167,7 +11170,7 @@ Logo List
 .fun-fact .count,
 .fun-fact span {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 550;
   margin: 0;
   line-height: 1.2;
   color: #7052fb;
@@ -16951,9 +16954,10 @@ Download Two
 
 #footer .footer-menu li a {
   display: block;
-  color: #797687;
+  color: rgba(0, 0, 0, 0.87);
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 10px;
 }
 #footer .footer-menu li a:hover {
   color: #fa7070;
@@ -17009,19 +17013,20 @@ Download Two
   margin-right: 10px;
 }
 #footer .footer-social-link li a {
-  height: 45px;
-  width: 45px;
-  line-height: 45px;
+  height: 40px;
+  width: 40px;
+  /* line-height: 45px; */
   border: 1px solid #e6dbdb;
   display: block;
   border-radius: 50%;
   color: #9694a1;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.08);
 }
 #footer .footer-social-link li a:hover {
-  background: #fa7070;
-  border-color: #fa7070;
+  background: #fff;
+  border-color: #28a745 !important;
   color: #fff;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(176, 70, 70, 0.3);
   box-shadow: 0px 20px 30px 0px rgba(176, 70, 70, 0.3);
@@ -17493,4 +17498,24 @@ Download Two
   #footer.footer-four .site-info .site-info-inner {
     display: block;
   }
+}
+
+.line-height-16{
+  line-height: 19px;
+}
+.btn-primary{
+  border: none !important;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+.getStartedBtn{
+  font-size: 15px;
+  padding: 5px 40px;
+  border-radius: 6px !important;
+}
+.footer-description {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+.copyright {
+  color: rgba(0, 0, 0, 0.87);
 }
