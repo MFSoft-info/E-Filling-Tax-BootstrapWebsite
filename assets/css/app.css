@@ -923,7 +923,7 @@ section {
 }
 
 .footer-bg {
-  background-image: url("/assets/img/body/Deco-2.png");
+  background-image: url("../img/body/Deco-2.png");
 
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -3033,7 +3033,7 @@ select {
   -webkit-transform: scale(1.07);
   -ms-transform: scale(1.07);
   transform: scale(1.07);
-  background: #7052fb;
+  background: #4CAF50;
   -webkit-box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.15);
 }
@@ -16362,7 +16362,7 @@ Download Two
   list-style: none;
 }
 .widget ul li a {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 40px;
   color: #797687;
   font-weight: 500;
@@ -16941,7 +16941,7 @@ Download Two
   font-weight: 500;
   margin-bottom: 38px;
   border-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 13px;
 }
 #footer .widget.footer-widget p {
   margin-bottom: 40px;
@@ -17518,4 +17518,10 @@ Download Two
 }
 .copyright {
   color: rgba(0, 0, 0, 0.87);
+}
+#footer .widget.footer-widget p select {
+  width: 75%;
+}
+.widget-about{
+  font-size: 15px;
 }
