@@ -367,8 +367,8 @@ section {
   --------------------------------------------------------------*/
 .pix-btn {
   padding: 8px 30px;
-  background: #fa7070;
-  border-radius: 30px;
+  background: #ffa000;
+  border-radius: 6px;
   display: inline-block;
   font-size: 15px;
   color: #fff;
@@ -924,7 +924,6 @@ section {
 
 .footer-bg {
   background-image: url("/assets/img/body/Deco-2.png");
-
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: center;
@@ -967,7 +966,7 @@ section {
   margin-bottom: 30px;
 }
 .list-items.color-eight li {
-  color: #14aeee;
+  color: #4caf50;
 }
 .list-items.color-eight li:before {
   color: #14aeee;
@@ -1007,11 +1006,10 @@ section {
 input,
 textarea,
 select {
-  background: #fdfafa;
   padding: 15px 30px;
   border: 1px solid #efe7e7;
   margin-bottom: 30px;
-  border-radius: 30px;
+  border-radius: 8px;
 }
 input:focus,
 textarea:focus,
@@ -2353,6 +2351,7 @@ select {
   padding: 6px 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 @media (max-width: 991px) {
   .site-header .header-inner .site-nav.nav-two .nav-right .nav-btn {
     border-color: #ffa000;
@@ -2671,9 +2670,20 @@ select {
   position: relative;
   width: 80%;
 }
+.contact-pb {
+  padding-bottom: 200px;
+}
+@media (max-width: 1280px) {
+  .contact-pb {
+    padding-bottom: 115px;
+  }
+}
 @media (max-width: 991px) {
   .site-header.header-seven .header-inner .site-nav .menu-wrapper {
     width: 100%;
+  }
+  .contact-pb {
+    padding-bottom: 50px;
   }
 }
 .site-header.header-seven .header-inner .site-nav .nav-right {
@@ -2971,7 +2981,7 @@ select {
   .site-main-menu
   li
   a.current_page {
-  color: #4CAF50;
+  color: #4caf50;
 }
 .pix-header-fixed .site-main-menu li {
   padding: 28px 0;
@@ -5845,7 +5855,7 @@ select {
   display: inline-block;
 }
 .saaspik-icon-box-wrapper.style-four .pixsass-icon-box-content .more-btn:hover {
-  color: #fa7070;
+  color: #ffa000;
 }
 .saaspik-icon-box-wrapper.style-four:hover {
   -webkit-box-shadow: 0px 40px 60px 0px rgba(79, 35, 35, 0.14);
@@ -6374,6 +6384,9 @@ select {
 
 .featured-four {
   padding-top: 55px;
+}
+.feature-four-services {
+  padding-bottom: 230px;
 }
 
 .featured-two-same {
@@ -11613,7 +11626,7 @@ Logo List
 ##  Page Banner
 --------------------------------------------------------------*/
 .page-banner {
-  background: #fdf8f8;
+  background: #fafbfd;
   text-align: center;
   height: 550px;
   display: -webkit-box;
@@ -11628,7 +11641,7 @@ Logo List
 .page-banner .page-title {
   font-size: 50px;
   font-weight: 800;
-  color: #2b2350;
+  color: black;
   position: relative;
   z-index: 2;
   max-width: 820px;
@@ -11784,7 +11797,7 @@ Logo List
   height: 690px;
   position: relative;
   overflow: hidden;
-  background: #fdf8f8;
+  background: #fafd;
 }
 .page-banner-contact .circle {
   position: absolute;
@@ -11825,7 +11838,7 @@ Logo List
 }
 
 .page-banner {
-  background: #fdf8f8;
+  background: #fafbfd;
   text-align: center;
   height: 550px;
   display: -webkit-box;
@@ -11840,7 +11853,7 @@ Logo List
 .page-banner .page-title {
   font-size: 50px;
   font-weight: 800;
-  color: #2b2350;
+  color: black;
   position: relative;
   z-index: 2;
   max-width: 820px;
@@ -11995,7 +12008,7 @@ Logo List
   height: 700px;
   position: relative;
   overflow: hidden;
-  background: #fdf8f8;
+  background: #fafbfd;
   z-index: 2;
 }
 .page-banner-contact .circle {
@@ -12467,7 +12480,7 @@ Logo List
   margin-right: 10px;
 }
 .contact-infos .contact-info .info.phone {
-  color: #fa7070;
+  color: #ffa000;
 }
 
 .saaspik-checkboxes {
@@ -14552,7 +14565,7 @@ Download Two
 ## Support
 --------------------------------------------------------------*/
 .support-section {
-  padding: 120px 0 100px;
+  padding: 120px 0 190px;
 }
 
 .ml--70 {
@@ -17500,15 +17513,15 @@ Download Two
   }
 }
 
-.line-height-16{
+.line-height-16 {
   line-height: 19px;
 }
-.btn-primary{
+.btn-primary {
   border: none !important;
   border-radius: 10px;
   padding: 8px 10px;
 }
-.getStartedBtn{
+.getStartedBtn {
   font-size: 15px;
   padding: 5px 40px;
   border-radius: 6px !important;
