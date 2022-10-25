@@ -2300,6 +2300,7 @@ select {
   justify-content: center;
   position: relative;
 }
+
 @media (max-width: 991px) {
   .site-header .header-inner .site-nav .menu-wrapper {
     display: block;
@@ -2680,9 +2681,52 @@ select {
 .contact-pb {
   padding-bottom: 200px;
 }
+
+.footer-get-app {
+  position: absolute;
+  top: -58px;
+  align-self: center;
+  margin-left: 11.5%;
+}
+.footer-get-app h1 {
+  font-size: 30px;
+}
+
+@media (max-width: 1440px) {
+  .footer-get-app {
+    position: absolute;
+    top: 0px;
+    align-self: center;
+    margin-left: 11.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1280px) {
   .contact-pb {
     padding-bottom: 115px;
+  }
+  .footer-get-app {
+    position: absolute;
+    top: 105px;
+    align-self: center;
+    margin-left: 12.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .footer-get-app {
+    position: absolute;
+    top: 120px;
+    align-self: center;
+    margin-left: 13.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
   }
 }
 @media (max-width: 991px) {
@@ -2691,6 +2735,15 @@ select {
   }
   .contact-pb {
     padding-bottom: 50px;
+  }
+  .footer-get-app {
+    position: absolute;
+    top: 145px;
+    align-self: center;
+    margin-left: 16.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
   }
 }
 .site-header.header-seven .header-inner .site-nav .nav-right {
@@ -2701,6 +2754,53 @@ select {
     margin-left: 20px;
   }
 }
+
+@media (max-width: 786px) {
+  .footer-get-app {
+    position: absolute;
+    top: 126px;
+    align-self: center;
+    margin-left: 18.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 515px) {
+  .footer-get-app {
+    position: absolute;
+    top: 115px;
+    align-self: center;
+    margin-left: 23.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 475px) {
+  .footer-get-app {
+    position: absolute;
+    top: 102px;
+    align-self: center;
+    margin-left: 23.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 420px) {
+  .footer-get-app {
+    position: absolute;
+    top: 88px;
+    align-self: center;
+    margin-left: 27.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 20px;
+  }
+}
+
 .site-header.header-seven .header-inner .site-nav .nav-right .nav-btn {
   background: transparent;
   color: #fff;
