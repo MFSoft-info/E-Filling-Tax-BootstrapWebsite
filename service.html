@@ -19,13 +19,13 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/img/fav/favicon-32x32.png"
+      href="assets/img/faviconIcon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/img/fav/favicon-16x16.png"
+      href="assets/img/faviconIcon.png"
     />
     <link
       rel="mask-icon"
@@ -177,12 +177,8 @@
                   <li>
                     <a href="index.html">Home</a>
                   </li>
-                  <li><a href="/">About</a></li>
                   <li><a href="service.html">Services</a></li>
-
-                  <li>
-                    <a href="#">Pages</a>
-                  </li>
+                  <li><a href="service-detailes.html">Services Detail</a></li>
 
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -190,7 +186,7 @@
 
               <div class="d-flex justify-content-center open-nav">
                 <div class="nav-right">
-                  <a href="signup.html" class="nav-btn">LOGIN</a>
+                  <a href="signin.html" class="nav-btn">LOGIN</a>
                 </div>
 
                 <div class="nav-right">
@@ -218,7 +214,7 @@
       <!--=         Banner         =-->
       <!--==========================-->
       <section class="page-banner">
-        <span class="background-color"></span>
+        <span class="background-color" style="top: -10px"></span>
         <div class="container">
           <div class="page-title-wrapper">
             <h1 class="page-title">Services</h1>
@@ -239,6 +235,8 @@
       <!--=         Service         =-->
       <!--===========================-->
       <section class="featured-four feature-four-services">
+        <span class="background-green" style="top: -200px"></span>
+
         <div class="container">
           <div class="section-title color-two text-center">
             <h3 class="sub-title wow pixFadeUp text-green">Our service</h3>
@@ -279,7 +277,7 @@
                   >
                     <path
                       fill-rule="evenodd"
-                      fill="#FAFBFD"
+                      fill="rgba(201, 246, 219, .25)"
                       d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"
                     />
                   </svg>
@@ -321,7 +319,7 @@
                 >
                   <path
                     fill-rule="evenodd"
-                    fill="#FAFBFD"
+                    fill="rgba(201, 246, 219, .25)"
                     d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"
                   />
                 </svg>
@@ -361,7 +359,7 @@
                 >
                   <path
                     fill-rule="evenodd"
-                    fill="#FAFBFD"
+                    fill="rgba(201, 246, 219, .25)"
                     d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"
                   />
                 </svg>
@@ -372,7 +370,7 @@
           </div>
 
           <div class="row justify-content-center">
-            <span class="background-color" style="left: -150px"></span>
+            <span class="background-color" style="left: -70px"></span>
             <div class="col-lg-4 col-md-6">
               <div
                 class="saaspik-icon-box-wrapper style-four wow pixFadeLeft"
@@ -403,7 +401,7 @@
                   >
                     <path
                       fill-rule="evenodd"
-                      fill="#FAFBFD"
+                      fill="rgba(201, 246, 219, .25)"
                       d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"
                     />
                   </svg>
@@ -445,7 +443,7 @@
                 >
                   <path
                     fill-rule="evenodd"
-                    fill="#FAFBFD"
+                    fill="rgba(201, 246, 219, .25)"
                     d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"
                   />
                 </svg>
@@ -485,7 +483,7 @@
                 >
                   <path
                     fill-rule="evenodd"
-                    fill="#FAFBFD"
+                    fill="rgba(201, 246, 219, .25)"
                     d="M-0.000,269.999 L-0.000,-0.001 L370.000,-0.001 C370.000,-0.001 347.889,107.879 188.862,112.181 C35.160,116.338 -0.000,269.999 -0.000,269.999 Z"
                   />
                 </svg>
@@ -653,11 +651,12 @@
                           <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </li>
                       </ul>
-                      <p class="mt-5">
+                      <p class="mt-5 select-drop-down">
                         <select
                           id="languages"
                           class="btn btn-outline-success"
                           name="languages"
+                          aria-label="Filter select"
                         >
                           <option>English</option>
                           <option value="af">Afrikaans</option>

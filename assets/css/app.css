@@ -910,7 +910,7 @@ section {
   -webkit-transform: scale(1.07);
   -ms-transform: scale(1.07);
   transform: scale(1.07);
-  background: #fa7070;
+  background: #ffa000;
   -webkit-box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.15);
 }
@@ -1951,6 +1951,10 @@ select {
   display: none;
 }
 
+.select-drop-down .btn {
+  appearance: auto !important;
+}
+
 .blobs {
   -webkit-filter: url(#goo);
   filter: url(#goo);
@@ -1966,7 +1970,7 @@ select {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: absolute;
-  background: #4CAF50;
+  background: #4caf50;
   top: 50%;
   left: 50%;
   width: 30px;
@@ -1980,13 +1984,13 @@ select {
   -webkit-animation: blob-grow linear 3.4s infinite;
   animation: blob-grow linear 3.4s infinite;
   border-radius: 50%;
-  -webkit-box-shadow: 0 -10px 40px -5px #4CAF50;
-  box-shadow: 0 -10px 40px -5px #4CAF50;
+  -webkit-box-shadow: 0 -10px 40px -5px #4caf50;
+  box-shadow: 0 -10px 40px -5px #4caf50;
 }
 
 .blob {
   position: absolute;
-  background: #4CAF50;
+  background: #4caf50;
   top: 50%;
   left: 50%;
   width: 30px;
@@ -2435,8 +2439,10 @@ select {
   color: black;
   font-size: 15px;
   font-weight: 500;
+  border: 1px solid transparent;
   position: relative;
-  padding: 6px 11px;
+  padding: 5px 10px;
+  border-radius: 8px;
 }
 .site-header .site-main-menu li > a:hover {
   color: #2e7d32;
@@ -3044,7 +3050,7 @@ select {
   -webkit-transform: scale(1.07);
   -ms-transform: scale(1.07);
   transform: scale(1.07);
-  background: #4CAF50;
+  background: #4caf50;
   -webkit-box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 10px 20px 8px rgba(0, 0, 0, 0.15);
 }
@@ -6994,7 +7000,6 @@ select {
   position: absolute;
   width: 400px;
   height: 350px;
-
   background: rgba(238, 189, 35, 0.8);
   opacity: 0.3;
   filter: blur(60px);
@@ -7317,6 +7322,26 @@ select {
 
   .genera-informes-two .scroll-circle {
     left: -70% !important;
+  }
+  .background-color {
+    position: absolute;
+    width: 230px;
+    height: 350px;
+    background: rgba(238, 189, 35, 0.8);
+    opacity: 0.3;
+    filter: blur(60px);
+    transform: rotate(90deg);
+  }
+
+  .background-green {
+    position: absolute;
+    width: none;
+    height: 350px;
+    background: rgba(76, 175, 80, 0.8);
+    right: 1px;
+    opacity: 0.3;
+    filter: blur(60px);
+    transform: rotate(90deg);
   }
 }
 @media (max-width: 480px) {
@@ -11675,7 +11700,7 @@ Logo List
   font-weight: 500;
 }
 .page-banner .bradcurmed li a:hover {
-  color: #fa7070;
+  color: #2e7d32;
 }
 .page-banner .circle {
   position: absolute;
@@ -11887,7 +11912,7 @@ Logo List
   font-weight: 500;
 }
 .page-banner .bradcurmed li a:hover {
-  color: #fa7070;
+  color: #2e7d32;
 }
 .page-banner .circle {
   position: absolute;
@@ -12454,7 +12479,7 @@ Logo List
 ## Contact Us
 --------------------------------------------------------------*/
 .contactus {
-  padding: 120px 0;
+  padding: 120px 0 245px;
 }
 
 .gmap3-area {
@@ -16660,11 +16685,11 @@ Download Two
   font-size: 18px;
 }
 .signin-from-wrapper .signin-from-inner p a {
-  color: #fa7070;
+  color: #ffa000;
 }
 
 .signin-banner {
-  background: #fef8f8;
+  background: #fafbfd;
   position: absolute;
   right: 0;
   height: 100%;
@@ -17070,7 +17095,7 @@ Download Two
 #footer.footer-two {
 }
 #footer.footer-two .footer-menu li a:hover {
-  color: #7052fb;
+  color: #ffa000;
 }
 /* #footer.footer-two .footer-social-link li a:hover {
   background: #7052fb;
@@ -17536,6 +17561,6 @@ Download Two
 #footer .widget.footer-widget p select {
   width: 75%;
 }
-.widget-about{
+.widget-about {
   font-size: 15px;
 }
