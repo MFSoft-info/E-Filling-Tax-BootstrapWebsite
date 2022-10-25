@@ -971,6 +971,10 @@ section {
 }
 .list-items.color-eight li:before {
   color: #14aeee;
+  font-family: eleganticons;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .list-items.list-with-icon li:before {
   display: none;
@@ -988,7 +992,7 @@ section {
   padding-left: 25px;
 }
 .list-items.list-icon-arrow li:before {
-  content: "$";
+  content: "N";
   color: #12bf7c;
 }
 
