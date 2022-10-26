@@ -1,293 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta Data -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <title>Signin — E-Filling Tax</title>
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/img/fav/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/img/faviconIcon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/img/faviconIcon.png"
-    />
-    <link
-      rel="mask-icon"
-      href="assets/img/fav/safari-pinned-tab.svg"
-      color="#fa7070"
-    />
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title>Signin — E-Filling Tax</title>
 
-    <meta name="msapplication-TileColor" content="#fa7070" />
-    <meta name="theme-color" content="#fa7070" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/faviconIcon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/faviconIcon.png" />
+  <link rel="mask-icon" href="assets/img/fav/safari-pinned-tab.svg" color="#fa7070" />
 
-    <!-- Dependency Styles -->
-    <link
-      rel="stylesheet"
-      href="dependencies/bootstrap/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="dependencies/fontawesome/css/all.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="dependencies/swiper/css/swiper.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="dependencies/wow/css/animate.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="dependencies/magnific-popup/css/magnific-popup.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="dependencies/components-elegant-icons/css/elegant-icons.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="dependencies/simple-line-icons/css/simple-line-icons.css"
-      type="text/css"
-    />
+  <meta name="msapplication-TileColor" content="#fa7070" />
+  <meta name="theme-color" content="#fa7070" />
 
-    <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+  <!-- Dependency Styles -->
+  <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="dependencies/fontawesome/css/all.min.css" type="text/css" />
+  <link rel="stylesheet" href="dependencies/swiper/css/swiper.min.css" type="text/css" />
+  <link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="dependencies/magnific-popup/css/magnific-popup.css" type="text/css" />
+  <link rel="stylesheet" href="dependencies/components-elegant-icons/css/elegant-icons.min.css" type="text/css" />
+  <link rel="stylesheet" href="dependencies/simple-line-icons/css/simple-line-icons.css" type="text/css" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&family=Satisfy&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <!-- Site Stylesheet -->
+  <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
 
-  <body id="home-version-1" class="home-version-1" data-style="default">
-    <a href="#main_content" data-type="section-switch" class="return-to-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&family=Satisfy&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <div class="page-loader">
-      <div class="loader">
-        <!-- Loader -->
-        <div class="blobs">
-          <div class="blob-center"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-          <defs>
-            <filter id="goo">
-              <feGaussianBlur
-                in="SourceGraphic"
-                stdDeviation="10"
-                result="blur"
-              />
-              <feColorMatrix
-                in="blur"
-                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
-                result="goo"
-              />
-              <feBlend in="SourceGraphic" in2="goo" />
-            </filter>
-          </defs>
-        </svg>
+<body id="home-version-1" class="home-version-1" data-style="default">
+  <a href="#main_content" data-type="section-switch" class="return-to-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+
+  <div class="page-loader">
+    <div class="loader">
+      <!-- Loader -->
+      <div class="blobs">
+        <div class="blob-center"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
     </div>
-    <!-- /.page-loader -->
+  </div>
+  <!-- /.page-loader -->
 
-    <div id="main_content">
-      <!--=========================-->
-      <!--=        Navbar         =-->
-      <!--=========================-->
-      <header class="site-header header-two header_trans-fixed" data-top="992">
-        <div class="container">
-          <div class="header-inner">
-            <div class="site-mobile-logo">
+  <div id="main_content">
+    <!--=========================-->
+    <!--=        Navbar         =-->
+    <!--=========================-->
+    <header class="site-header header-two header_trans-fixed" data-top="992">
+      <div class="container">
+        <div class="header-inner">
+          <div class="site-mobile-logo">
+            <a href="index.html" class="logo">
+              <img src="assets/img/fav/Group2.png" alt="site logo" class="main-logo" />
+              <img src="assets/img/fav/Group2.png" alt="site logo" class="sticky-logo" />
+            </a>
+          </div>
+          <!-- /.site-mobile-logo -->
+
+          <div class="toggle-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <!-- /.toggle-menu -->
+          <nav class="site-nav nav-two">
+            <div class="close-menu">
+              <span>Close</span>
+              <i class="ei ei-icon_close"></i>
+            </div>
+
+            <div class="site-logo">
               <a href="index.html" class="logo">
-                <img
-                  src="assets/img/fav/Group2.png"
-                  alt="site logo"
-                  class="main-logo"
-                />
-                <img
-                  src="assets/img/fav/Group2.png"
-                  alt="site logo"
-                  class="sticky-logo"
-                />
+                <img src="assets/img/logo/text-logo-01-2.png" alt="site logo" class="main-logo m-width" />
+                <img src="assets/img/logo/text-logo-01-2.png" alt="site logo" class="sticky-logo m-width" />
               </a>
             </div>
-            <!-- /.site-mobile-logo -->
 
-            <div class="toggle-menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
+            <div class="menu-wrapper" data-top="992">
+              <ul class="site-main-menu">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="service-detailes.html">Services Detail</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
             </div>
-            <!-- /.toggle-menu -->
-            <nav class="site-nav nav-two">
-              <div class="close-menu">
-                <span>Close</span>
-                <i class="ei ei-icon_close"></i>
+
+            <div class="d-flex justify-content-center open-nav">
+              <div class="nav-right">
+                <a href="signin.html" class="nav-btn">LOGIN</a>
               </div>
 
-              <div class="site-logo">
-                <a href="index.html" class="logo">
-                  <img
-                    src="assets/img/logo/text-logo-01-2.png"
-                    alt="site logo"
-                    class="main-logo m-width"
-                  />
-                  <img
-                    src="assets/img/logo/text-logo-01-2.png"
-                    alt="site logo"
-                    class="sticky-logo m-width"
-                  />
-                </a>
+              <div class="nav-right">
+                <a href="signup.html" class="nav-btn">REGISTER</a>
               </div>
-
-              <div class="menu-wrapper" data-top="992">
-                <ul class="site-main-menu">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li><a href="service.html">Services</a></li>
-                  <li><a href="service-detailes.html">Services Detail</a></li>
-
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-
-              <div class="d-flex justify-content-center open-nav">
-                <div class="nav-right">
-                  <a href="signin.html" class="nav-btn">LOGIN</a>
-                </div>
-
-                <div class="nav-right">
-                  <a href="signup.html" class="nav-btn">REGISTER</a>
-                </div>
-                <span class="mx-4 border-left"></span>
-                <span
-                  ><img
-                    class="setting-icon"
-                    src="./assets/img/logo/Settings_black-512.webp"
-                    alt=""
-                /></span>
-              </div>
-              <!-- /.menu-wrapper -->
-            </nav>
-            <!-- /.site-nav -->
-          </div>
-          <!-- /.header-inner -->
+              <span class="mx-4 border-left"></span>
+              <span><img class="setting-icon" src="./assets/img/logo/Settings_black-512.webp" alt="" /></span>
+            </div>
+            <!-- /.menu-wrapper -->
+          </nav>
+          <!-- /.site-nav -->
         </div>
-        <!-- /.container -->
-      </header>
+        <!-- /.header-inner -->
+      </div>
+      <!-- /.container -->
+    </header>
 
-      <!--==========================-->
-      <!--=         Sign In         =-->
-      <!--==========================-->
-      <section class="signin">
-        <span class="background-color"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="signin-from-wrapper">
-                <div class="signin-from-inner">
-                  <h2 class="title text-dark mb-5">Log In</h2>
-                  <form action="#" class="singn-form">
-                    <input type="text" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
+    <!--==========================-->
+    <!--=         Sign In         =-->
+    <!--==========================-->
+    <section class="signin">
+      <span class="background-color"></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="signin-from-wrapper">
+              <div class="signin-from-inner">
+                <h2 class="title text-dark mb-5">Log In</h2>
+                <form action="#" class="singn-form">
+                  <input type="text" placeholder="Email" />
+                  <input type="password" placeholder="Password" />
 
-                    <div class="forget-link">
-                      <div class="condition">
-                        <input
-                          class="styled-checkbox"
-                          id="styled-checkbox-1"
-                          type="checkbox"
-                          value="value1"
-                        />
-                        <label for="styled-checkbox-1"></label>
-                        <span>Remember Me</span>
-                      </div>
+                  <div class="forget-link">
+                    <div class="condition">
+                      <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1" />
+                      <label for="styled-checkbox-1"></label>
+                      <span>Remember Me</span>
                     </div>
+                  </div>
 
-                    <button type="submit" class="pix-btn">Log In</button>
+                  <button type="submit" class="pix-btn">Log In</button>
 
-                    <p>
-                      Don’t have any account?
-                      <a href="signup.html">Sign up</a> now.
-                    </p>
-                  </form>
-                </div>
-                <!-- /.signin-from-inner -->
+                  <p>
+                    Don’t have any account?
+                    <a href="signup.html">Sign up</a> now.
+                  </p>
+                </form>
               </div>
-              <!-- /.signin-from-wrapper -->
+              <!-- /.signin-from-inner -->
             </div>
-            <!-- /.col-lg-7 -->
+            <!-- /.signin-from-wrapper -->
           </div>
-          <!-- /.row -->
+          <!-- /.col-lg-7 -->
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
 
-        <div class="signin-banner">
-          <img
-            src="media/animated/lock.png"
-            alt=""
-            class="image-one wow pixFadeDown"
-          />
-        </div>
-        <!-- /.signin-banner -->
-      </section>
-      <!-- /.signin -->
-      <span class="background-green" style="top: 200px"></span>
-    </div>
-    <!-- /#site -->
+      <div class="signin-banner">
+        <img src="media/animated/lock.png" alt="" class="image-one wow pixFadeDown" />
+      </div>
+      <!-- /.signin-banner -->
+    </section>
+    <!-- /.signin -->
+    <span class="background-green" style="top: 200px"></span>
+  </div>
+  <!-- /#site -->
 
-    <!-- Dependency Scripts -->
-    <script src="dependencies/jquery/jquery.min.js"></script>
-    <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
-    <script src="dependencies/swiper/js/swiper.min.js"></script>
-    <script src="dependencies/jquery.appear/jquery.appear.js"></script>
-    <script src="dependencies/wow/js/wow.min.js"></script>
-    <script src="dependencies/countUp.js/countUp.min.js"></script>
-    <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
-    <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
-    <script src="dependencies/gmap3/js/gmap3.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6"
-    ></script>
+  <!-- Dependency Scripts -->
+  <script src="dependencies/jquery/jquery.min.js"></script>
+  <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+  <script src="dependencies/swiper/js/swiper.min.js"></script>
+  <script src="dependencies/jquery.appear/jquery.appear.js"></script>
+  <script src="dependencies/wow/js/wow.min.js"></script>
+  <script src="dependencies/countUp.js/countUp.min.js"></script>
+  <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+  <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+  <script src="dependencies/gmap3/js/gmap3.min.js"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6"></script>
 
-    <!-- Site Scripts -->
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/app.js"></script>
-  </body>
+  <!-- Site Scripts -->
+  <script src="assets/js/header.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
 </html>
