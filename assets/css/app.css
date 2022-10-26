@@ -950,16 +950,15 @@ section {
   line-height: 22px;
   font-weight: 500;
   color: #2b2350;
+  margin-left: 50px;
   position: relative;
 }
-/* .list-items li:before {
+.list-items li:before {
   content: "N";
   font-family: eleganticons;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #fa7070;
-} */
+  color: green;
+}
+
 .list-items.color-two li:before {
   color: #7052fb;
 }
@@ -970,7 +969,8 @@ section {
   color: #4caf50;
 }
 .list-items.color-eight li:before {
-  color: #14aeee;
+  color: #4caf50;
+  margin-left: 8px;
 }
 .list-items.list-with-icon li:before {
   display: none;
@@ -2358,6 +2358,10 @@ select {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.footer-logo-991 {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .site-header .header-inner .site-nav.nav-two .nav-right .nav-btn {
     border-color: #ffa000;
@@ -2798,6 +2802,36 @@ select {
   }
   .footer-get-app h1 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-get-app {
+    position: absolute;
+    top: 82px;
+    align-self: center;
+    margin-left: 27.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 14px;
+  }
+  .footer-get-app div a svg {
+    width: 90px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer-get-app {
+    position: absolute;
+    top: 66px;
+    align-self: center;
+    margin-left: 27.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 14px;
+  }
+  .footer-get-app div a svg {
+    width: 90px;
   }
 }
 
@@ -3398,14 +3432,22 @@ select {
   }
 
   .header-inner .site-mobile-logo img {
-    max-height: 50px;
+    max-height: 70px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
 
+  .footer-logo-991 {
+    display: block;
+  }
+
+  .footer-logo-1 {
+    display: none !important;
+  }
+
   .pix-header-fixed .toggle-menu {
-    top: 30px;
+    /* top: 30px; */
   }
   .pix-header-fixed .toggle-menu .bar {
     background: #333;
@@ -17375,6 +17417,10 @@ Download Two
 @media (max-width: 991px) {
   #footer.footer-job-board .footer-inner {
     padding: 75px 0 45px;
+  }
+  #footer .footer-logo {
+    display: block;
+    margin-bottom: 55px;
   }
 }
 #footer.footer-job-board .widget.footer-widget .widget-title {
