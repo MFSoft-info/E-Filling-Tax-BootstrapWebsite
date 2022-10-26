@@ -923,8 +923,7 @@ section {
 }
 
 .footer-bg {
-  background-image: url("/assets/img/body/Deco-2.png");
-
+  background-image: url("../img/body/Deco-2.png");
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: center;
@@ -970,6 +969,7 @@ section {
 .list-items.color-eight li:before {
   color: #4caf50;
   margin-left: 8px;
+
 }
 .list-items.list-with-icon li:before {
   display: none;
@@ -987,7 +987,7 @@ section {
   padding-left: 25px;
 }
 .list-items.list-icon-arrow li:before {
-  content: "$";
+  content: "N";
   color: #12bf7c;
 }
 
