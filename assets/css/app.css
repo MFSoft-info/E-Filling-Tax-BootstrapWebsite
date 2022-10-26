@@ -949,16 +949,15 @@ section {
   line-height: 22px;
   font-weight: 500;
   color: #2b2350;
+  margin-left: 50px;
   position: relative;
 }
-/* .list-items li:before {
+.list-items li:before {
   content: "N";
   font-family: eleganticons;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #fa7070;
-} */
+  color: green;
+}
+
 .list-items.color-two li:before {
   color: #7052fb;
 }
@@ -969,11 +968,9 @@ section {
   color: #4caf50;
 }
 .list-items.color-eight li:before {
-  color: #14aeee;
-  font-family: eleganticons;
-  position: absolute;
-  left: 0;
-  top: 0;
+  color: #4caf50;
+  margin-left: 8px;
+
 }
 .list-items.list-with-icon li:before {
   display: none;
@@ -2303,6 +2300,7 @@ select {
   justify-content: center;
   position: relative;
 }
+
 @media (max-width: 991px) {
   .site-header .header-inner .site-nav .menu-wrapper {
     display: block;
@@ -2358,6 +2356,10 @@ select {
   box-shadow: none;
   padding: 6px 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-logo-991 {
+  display: none;
 }
 
 @media (max-width: 991px) {
@@ -2683,9 +2685,52 @@ select {
 .contact-pb {
   padding-bottom: 200px;
 }
+
+.footer-get-app {
+  position: absolute;
+  top: -58px;
+  align-self: center;
+  margin-left: 11.5%;
+}
+.footer-get-app h1 {
+  font-size: 30px;
+}
+
+@media (max-width: 1440px) {
+  .footer-get-app {
+    position: absolute;
+    top: 0px;
+    align-self: center;
+    margin-left: 11.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1280px) {
   .contact-pb {
     padding-bottom: 115px;
+  }
+  .footer-get-app {
+    position: absolute;
+    top: 105px;
+    align-self: center;
+    margin-left: 12.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .footer-get-app {
+    position: absolute;
+    top: 120px;
+    align-self: center;
+    margin-left: 13.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
   }
 }
 @media (max-width: 991px) {
@@ -2694,6 +2739,15 @@ select {
   }
   .contact-pb {
     padding-bottom: 50px;
+  }
+  .footer-get-app {
+    position: absolute;
+    top: 145px;
+    align-self: center;
+    margin-left: 16.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 30px;
   }
 }
 .site-header.header-seven .header-inner .site-nav .nav-right {
@@ -2704,6 +2758,83 @@ select {
     margin-left: 20px;
   }
 }
+
+@media (max-width: 786px) {
+  .footer-get-app {
+    position: absolute;
+    top: 126px;
+    align-self: center;
+    margin-left: 18.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 515px) {
+  .footer-get-app {
+    position: absolute;
+    top: 115px;
+    align-self: center;
+    margin-left: 23.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 475px) {
+  .footer-get-app {
+    position: absolute;
+    top: 102px;
+    align-self: center;
+    margin-left: 23.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 420px) {
+  .footer-get-app {
+    position: absolute;
+    top: 88px;
+    align-self: center;
+    margin-left: 27.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-get-app {
+    position: absolute;
+    top: 82px;
+    align-self: center;
+    margin-left: 27.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 14px;
+  }
+  .footer-get-app div a svg {
+    width: 90px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer-get-app {
+    position: absolute;
+    top: 66px;
+    align-self: center;
+    margin-left: 27.5%;
+  }
+  .footer-get-app h1 {
+    font-size: 14px;
+  }
+  .footer-get-app div a svg {
+    width: 90px;
+  }
+}
+
 .site-header.header-seven .header-inner .site-nav .nav-right .nav-btn {
   background: transparent;
   color: #fff;
@@ -3301,14 +3432,22 @@ select {
   }
 
   .header-inner .site-mobile-logo img {
-    max-height: 50px;
+    max-height: 70px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
 
+  .footer-logo-991 {
+    display: block;
+  }
+
+  .footer-logo-1 {
+    display: none !important;
+  }
+
   .pix-header-fixed .toggle-menu {
-    top: 30px;
+    /* top: 30px; */
   }
   .pix-header-fixed .toggle-menu .bar {
     background: #333;
@@ -17278,6 +17417,10 @@ Download Two
 @media (max-width: 991px) {
   #footer.footer-job-board .footer-inner {
     padding: 75px 0 45px;
+  }
+  #footer .footer-logo {
+    display: block;
+    margin-bottom: 55px;
   }
 }
 #footer.footer-job-board .widget.footer-widget .widget-title {
