@@ -950,14 +950,13 @@ section {
   line-height: 22px;
   font-weight: 500;
   color: #2b2350;
-  margin-left: 50px;
   position: relative;
 }
-.list-items li:before {
+/* .list-items li:before {
   content: "N";
   font-family: eleganticons;
   color: green;
-}
+} */
 
 .list-items.color-two li:before {
   color: #7052fb;
